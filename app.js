@@ -1,4 +1,4 @@
-function lessThanOrEqualToZero (number) {
-return number <= 0
+function isOdd (num) {
+    return num % 2 === 0 
 }
-console.log (lessThanOrEqualToZero (2))
+console.log (isOdd (12));
