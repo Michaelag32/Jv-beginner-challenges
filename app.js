@@ -1,4 +1,9 @@
-function doILoveHer (string) {
-return string === 'any other girl'
+/*function isLoggedInAndSubscribed (loggedIn, Subscribed) {
+return loggedIn === 'LOGGED_IN' && Subscribed === 'SUBSCRIBED'
+
 }
-console.log (doILoveHer ('Fabiola')); 
+console.log (isLoggedInAndSubscribed ('LOGGED_IN', 'SUBSCRIBED')); */
+
+
+
+
