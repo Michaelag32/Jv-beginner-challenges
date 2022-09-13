@@ -1,4 +1,4 @@
-function isOdd (num) {
-    return num % 2 === 0 
+function doILoveHer (string) {
+return string === 'any other girl'
 }
-console.log (isOdd (12));
+console.log (doILoveHer ('Fabiola')); 
