@@ -142,3 +142,9 @@ console.log (calcTime(500)) */
 
 console.log (convertToZeros([5, 100, 22])) */
 
+
+
+///HARDDDDDD//// 
+
+
+
