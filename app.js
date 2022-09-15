@@ -147,4 +147,46 @@ console.log (convertToZeros([5, 100, 22])) */
 ///HARDDDDDD//// 
 
 
+/* function showRating (rating) {
+   let ratings = ''
 
+   for (let i= 0; i < Math.floor (rating); ++i) {
+    ratings += '*'
+    if (i !== Math.floor(rating) -1 ) {
+        ratings += ' '
+    }
+   }
+   if (!Number.isInteger(rating)) {
+    ratings += ' .'
+   }
+
+   return ratings
+}
+
+console.log (showRating (3)) */
+
+/* function showRating (rating) {
+let ratings = ''
+for (let i = 0; i < Math.floor(rating); ++i) {
+    ratings += '*'
+    if ( i !== Math.floor (rating) - 1) {
+        ratings += ' '
+    }
+}
+if (!Number.isInteger (rating)) {
+    ratings += ' .'
+}
+return ratings
+}
+
+console.log (showRating (4)) */ 
+
+async function firstSixIncomplete (userId) {
+
+    const promise = await fetch ('https://jsonplaceholder.typicode.com/todos') 
+    const result = await promise.json ()
+
+    console.log (result)
+}
+
+firstSixIncomplete (6);
